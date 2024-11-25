@@ -1,0 +1,133 @@
+.cabecalho {
+
+    background-color: var(--color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  
+  .cabecalho__container {
+    max-width: 1228px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  
+  .cabecalho__menu {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .cabecalho__logo {
+    width: 80px;
+  }
+  
+  .cabecalho__menu a {
+    color: var(--color4);
+    font-weight: 480;
+    font-size: 1rem;
+  }
+  
+  .cabecalho__menu2 {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .cabecalho__menu2Botao1 {
+    color: var(--color1);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .cabecalho__menu2Botao2 {
+    background-color: var(--color1);
+    border: 1px solid var(--color1);
+    color: var(--color2);
+    border-radius: 4px;
+    padding: 0.7rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 30px 0;
+  }
+  
+  .apresentacao__titulo {
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: #3e3e3e;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .apresentacao__texto {
+    font-size: 1.125rem;
+    font-weight: 470;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 40px;
+  }
+  
+  .banner__card {
+    color: var(--color3);
+    font-size: 1.5rem;
+    border-radius: 20px;
+    width: 404px;
+    height: 214px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .banner__card--restaurante {
+    background-color: var(--color1);
+    background-image: url(/assets/img/restaurant.avif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 56%;
+  }
+  
+  .banner__card--mercado {
+    background-color: var(--color7);
+    background-image: url(/assets/img/market.avif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 58%;
+  }
+  
+  .banner__botao {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    color: var(--color3);
+  }
+  
+  .banner__botao--restaurante {
+    background-color: var(--color5);
+  }
+  
+  .banner__botao--mercado {
+    background-color: var(--color6);
+  }
